@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./assets/icon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Smart Inspection | Hjem</title>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="log" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Hjem</a></li>
+        <li><a href="./projects.html">Prosjekter</a></li>
+        <li><a href="./services.html">Tjenster</a></li>
+        <li><a href="./about-us.html">Om oss</a></li>
+        <li><a href="./contact.html">Kontakt</a></li>
+        <li>
+        </li>
+      </ul>
+
+      <div  class="hamburger-icon" id="hamburger-btn">
+        <img src="./assets/hamburger-menu-icon.svg" alt="hamburger" />
+      </div>
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="./index.html">Hjem</a></li>
+          <li><a href="./projects.html">Prosjekter</a></li>
+          <li><a href="./services.html">Tjenster</a></li>
+          <li><a href="./about-us.html">Om oss</a></li>
+          <li><a href="./contact.html">Kontakt</a></li>
+        </ul>
+        <div class="mobile--footer">
+          <div class="mobile--footer__social">
+            <p>Du finner oss på</p>
+            <div>
+              <a href="https://www.linkedin.com/" target="__blank"><img src="./assets/images/linkedin.png" alt="" /></a>
+              <a href="https://www.facebook.com/" target="__blank"><img src="./assets/images/facebook.png" alt="" /></a>
+            </div>
+          </div>
+          <p>© <span id="year"></span> Smart Inspection AS</p>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header home">
+      <img src="./assets/images/home-cover.jpg" alt="" class="img" />
+    </header>
+
+    <section class="home__container container text-center">
+      <h1>Lorem Ipsum</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum lorem, eleifend ut rhoncus sed, tincidunt quis nunc. Aenean
+        sit amet sem rutrum, gravida orci sed, porttitor neque.
+      </p>
+    </section>
+
+    <section class="home__services">
+      <h2>Tjenester</h2>
+      <div class="loader">
+        <img src="./assets/loader.svg" class="spinner" alt="loading" />
+      </div>
+      <div class="swiper serviceSwiper">
+        <div class="swiper-wrapper serviceSwiperWrapper" id="serviceSwiperWrapper"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="container">
+      <p class="display-4">
+        Din spesialist innen landmåling, <br />
+        3D scanning og digitalisering.
+      </p>
+    </section>
+
+    <section class="home__services">
+      <h2>Prosjekter</h2>
+      <div class="loader">
+        <img src="./assets/loader.svg" class="spinner" alt="loading" />
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper" id="projectSwiperWrapper"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="container customers">
+      <h2>Kunder</h2>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1508834527712-97cf0de476f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGNpdHl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+          class="customers_img"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1567320743368-9db24e12ebf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2l0eXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+          alt=""
+          class="customers_img"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1516864351034-bf734fd2c77e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2l0eXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+          alt=""
+          class="customers_img"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1519304449493-2568f9c2eedb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNpdHl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+          class="customers_img"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1535478372499-9d1e5130bd92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNpdHl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+          class="customers_img"
+        />
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__content">
+        <div class="footer__link">
+          <ul>
+            <li><a href="./index.html">Hjem</a></li>
+            <li><a href="./services.html">Tjenester</a></li>
+            <li><a href="./projects.html">Prosjekter</a></li>
+          </ul>
+        </div>
+        <div class="footer__link">
+          <ul>
+            <li><a href="./about-us.html">Om oss</a></li>
+            <li><a href="./contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <p>Du finner oss på</p>
+          <div>
+            <a href="https://www.linkedin.com/" target="__blank"><img src="./assets/images/linkedin.png" alt="" /></a>
+            <a href="https://www.facebook.com/" target="__blank"><img src="./assets/images/facebook.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <p>© <span id="year"></span> Smart Inspection AS</p>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

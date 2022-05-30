@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./assets/icon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"rel="stylesheet" />
+    <link  rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Smart Inspection | Kontakt</title>
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="log" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Hjem</a></li>
+        <li><a href="./projects.html">Prosjekter</a></li>
+        <li><a href="./services.html">Tjenster</a></li>
+        <li><a href="./about-us.html">Om oss</a></li>
+        <li><a href="./contact.html">Kontakt</a></li>
+        <li>
+        </li>
+      </ul>
+
+      <div  class="hamburger-icon" id="hamburger-btn">
+        <img src="./assets/hamburger-menu-icon.svg" alt="hamburger" />
+      </div>
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="./index.html">Hjem</a></li>
+          <li><a href="./projects.html">Prosjekter</a></li>
+          <li><a href="./services.html">Tjenster</a></li>
+          <li><a href="./about-us.html">Om oss</a></li>
+          <li><a href="./contact.html">Kontakt</a></li>
+        </ul>
+        <div class="mobile--footer">
+          <div class="mobile--footer__social">
+            <p>Du finner oss på</p>
+            <div>
+              <a href="https://www.linkedin.com/" target="__blank"
+                ><img src="./assets/images/linkedin.png" alt=""
+              /></a>
+              <a href="https://www.facebook.com/" target="__blank"
+                ><img src="./assets/images/facebook.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <p>© <span id="year"></span> Smart Inspection AS</p>
+        </div>
+      </div>
+    </nav>
+    <header class="header contact">
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8421.27842687064!2d7.995348342679391!3d58.151633322866516!2m3!
+      1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4638025b1af5cfa9%3A0xd3a83b67bf9c2f39!2sKj%C3%B8ita%2040%2C%204630%20Kristiansand!
+      5e0!3m2!1sno!2sno!4v1652896123339!5m2!1sno!2sno"
+      style="border: 0"
+      allowfullscreen=""
+      class="map"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    </header>
+
+    <section class="contact_container">
+      <div>
+        <h2>Address</h2>
+        <p>
+          Hovedkontor <br />
+          Kjøita 40 <br />
+          4630 Kristiansand <br />
+          Norge
+        </p>
+        <p>
+          post@smartinspection.no <br />
+          Tel: +47 38 79 58 40
+        </p>
+      </div>
+      <div>
+        <h2>Forespørsler</h2>
+        <p>
+          Ikke nøl med å ta kontakt, enten du lurer <br />
+          på noe generelt eller spesifikt.
+        </p>
+        <p>
+          mail: post@smartinspection.no <br />
+          tel: +47 38 79 58 40
+        </p>
+
+        <p>
+          Ved hjelp av et kartutsnitt eller bilde vil vi <br />
+          kunne gi et nøyaktig estimat.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact_container">
+      <div>
+        <h2>Karriere</h2>
+        <div class="form_text">
+          <p>
+            Er du interessert i en annerledes hverdag? Vi er et selskap i stor
+            vekst og har alltid behov for dyktige og godt motiverte medarbeidere
+            innen alle våre fagfelt, inklusiv kjerneorganisasjonen.
+          </p>
+          <p>
+            Om dette er deg vil vi veldig gjerne at du sender CV og et følgebrev
+            til post@smartinspection.no
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="hide" id="errors"></div> 
+        <form action="" class="form" id="contact-form">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Name" id="name"/>
+            <small class="text-danger mt-2"></small>
+          </div>
+
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Email" id="email"/>
+            <small class="text-danger mt-2"></small>
+          </div>
+
+          <div class="input-group">
+            <input  type="text"  class="form-control" placeholder="Subject" id="subject" />
+            <small class="text-danger mt-2"></small>
+          </div>
+
+          <div class="input-group">
+            <textarea  name="" class="form-control" cols="30" rows="5" placeholder="Message" id="message"></textarea>
+            <small class="text-danger mt-2"></small>
+          </div>
+
+          <button class="form_btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__content">
+        <div class="footer__link">
+          <ul>
+            <li><a href="./index.html">Hjem</a></li>
+            <li><a href="./services.html">Tjenester</a></li>
+            <li><a href="./projects.html">Prosjekter</a></li>
+          </ul>
+        </div>
+        <div class="footer__link">
+          <ul>
+            <li><a href="./about-us.html">Om oss</a></li>
+            <li><a href="./contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <p>Du finner oss på</p>
+          <div>
+            <a href="https://www.linkedin.com/" target="__blank"
+              ><img src="./assets/images/linkedin.png" alt=""
+            /></a>
+            <a href="https://www.facebook.com/" target="__blank"
+              ><img src="./assets/images/facebook.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <p>© <span id="year"></span> Smart Inspection AS</p>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./scripts/contact.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
